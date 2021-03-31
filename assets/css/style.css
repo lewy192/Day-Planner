@@ -61,6 +61,15 @@ textarea {
     border-bottom-right-radius: 15px;
     background-color: #06aed5;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.padlock-icon {
+    display: block;
+    width: 50%;
+    height: 50%;
 }
 
 .saveBtn:hover {
@@ -69,4 +78,10 @@ textarea {
 .saveBtn i:hover {
     font-size: 20px;
     transition: all 0.3s ease-in-out;
+}
+.container {
+    margin-bottom: 1.75rem;
+}
+
+.padlock-icon {
 }
